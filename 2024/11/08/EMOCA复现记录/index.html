@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Fanrito&#39;s Blog</title>
+    <title> | Fanrito&#39;s Blog</title>
     <meta name="author" content="Fanrito" />
     <meta name="description" content="" />
     <meta name="keywords" content="人工智能,机器学习,深度学习,自然语言处理,计算机视觉,计算机图形学,计算机网络,计算机组成原理,操作系统,数据结构,算法,计算机科学,编程,编程技术,编程技巧,编程经验,编程技巧,编程经验,编程技巧,编程经验,编程技巧,编程经验,编程技巧,编程经验" />
@@ -37,6 +37,10 @@
 
 
 <script src="/js/lib/preview.js"></script>
+
+
+
+
 
 
 
@@ -150,40 +154,44 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
-    
-    <div id="timeline-wrap" ref="timeline">
+            <div class="article">
+    <div>
+        <h1></h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/11/8
+        </span>
         
-        <div class="timeline" data-title="helloworld11111">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/11/7</div>
-                <a href="/2024/11/07/hello-world/">
-                    <h3>Hello World11111</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/11/8</div>
-                <a href="/2024/11/08/EMOCA%E5%A4%8D%E7%8E%B0%E8%AE%B0%E5%BD%95/">
-                    <h3></h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
         
     </div>
+    
+    <div class="content" v-pre>
+        <h1 id="EMOCA"><a href="#EMOCA" class="headerlink" title="EMOCA"></a>EMOCA</h1><p> 环境配置</p>
+<ol>
+<li>安装Anaconda</li>
+<li>安装PyTorch</li>
+<li>安装TensorBoard</li>
+<li>安装OpenCV</li>
+<li>安装其他依赖</li>
+<li>安装MMCV</li>
+<li>安装MMDetection</li>
+<li>安装MMDetection3D</li>
+<li>安装MMClassification</li>
+<li>安装MMOCR</li>
+</ol>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
 </div>
 
             <footer id="footer">
@@ -214,6 +222,12 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+
+
+
+
     
 </body>
 </html>
